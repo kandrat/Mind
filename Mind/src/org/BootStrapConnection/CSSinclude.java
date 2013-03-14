@@ -1,10 +1,13 @@
 package org.BootStrapConnection;
 
+/**
+ * @author White kandrat.
+ */
 public final class CSSinclude {
 	/**
 	 * include bootstrap CSS.
 	 */
-	// Подключение CSS
+	// РџРѕРґРєР»СЋС‡РµРЅРёРµ CSS
 	public static final String HTMLBOOTSTRAPLINK = "<link rel='stylesheet' type='text/css' href='bootstrap/css/bootstrap.css'/>"
 			+ "<link href='bootstrap/css/bootstrap-responsive.css' rel='stylesheet'>";
 

@@ -12,6 +12,7 @@ import javax.servlet.http.HttpServletResponse;
  */
 public class Index extends HttpServlet {
 	private static final long serialVersionUID = 1L;
+
 	/**
 	 * @see HttpServlet#HttpServlet()
 	 */
@@ -23,13 +24,21 @@ public class Index extends HttpServlet {
 	/**
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse
 	 *      response)
+	 * @param request
+	 *            request
+	 * @param response
+	 *            response
+	 * @throws ServletException
+	 *             exception
+	 * @throws IOException
+	 *             exception
 	 */
 	protected void doGet(HttpServletRequest request,
 			HttpServletResponse response) throws ServletException, IOException {
 		response.setContentType("text/html; charset=UTF-8");
 		response.setCharacterEncoding("UTF-8");
 		PrintWriter out = response.getWriter();
-		//Начало HTML страницы
+		// РќР°С‡Р°Р»Рѕ HTML СЃС‚СЂР°РЅРёС†С‹
 		out.println("<Html>");
 		out.println("<Head>");
 		out.println("<Title>");
@@ -37,7 +46,7 @@ public class Index extends HttpServlet {
 		out.println("</Title>");
 		out.println("</Head>");
 		out.println("<Body>");
-		//Подключение Bootstrap к данной странице
+		// РџРѕРґРєР»СЋС‡РµРЅРёРµ Bootstrap Рє РґР°РЅРЅРѕР№ СЃС‚СЂР°РЅРёС†Рµ
 		out.println(org.BootStrapConnection.CSSinclude.HTMLBOOTSTRAPLINK);
 		out.println(org.BootStrapConnection.JSinclude.HTMLBOOTSTRAPSCRIPT);
 
@@ -49,6 +58,14 @@ public class Index extends HttpServlet {
 	/**
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse
 	 *      response)
+	 * @param request
+	 *            request
+	 * @param response
+	 *            response
+	 * @throws ServletException
+	 *             exception
+	 * @throws IOException
+	 *             exception
 	 */
 	protected void doPost(HttpServletRequest request,
 			HttpServletResponse response) throws ServletException, IOException {

@@ -1,23 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <checkstyle version="5.5">
-<file name="D:\Java\workspace\Mind\src\org\BootStrapConnection\CSSinclude.java">
-<error line="3" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<file name="C:\Users\White kandrat\git\Mind\Mind\src\org\BootStrapConnection\CSSinclude.java">
 </file>
-<file name="D:\Java\workspace\Mind\src\org\BootStrapConnection\JSinclude.java">
-<error line="3" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
-<error line="8" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
-<error line="11" column="9" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<file name="C:\Users\White kandrat\git\Mind\Mind\src\org\BootStrapConnection\JSinclude.java">
 </file>
-<file name="D:\Java\workspace\Mind\src\org\main\Index.java">
-<error line="27" column="49" severity="error" message="Expected @param tag for &apos;request&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
-<error line="28" column="45" severity="error" message="Expected @param tag for &apos;response&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
-<error line="28" column="62" severity="error" message="Expected @throws tag for &apos;ServletException&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
-<error line="28" column="62" severity="error" message="Unable to get class information for ServletException." source="com.puppycrawl.tools.checkstyle.checks.coding.RedundantThrowsCheck"/>
-<error line="28" column="80" severity="error" message="Expected @throws tag for &apos;IOException&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
-<error line="53" column="50" severity="error" message="Expected @param tag for &apos;request&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
-<error line="54" column="45" severity="error" message="Expected @param tag for &apos;response&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
-<error line="54" column="62" severity="error" message="Expected @throws tag for &apos;ServletException&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
-<error line="54" column="62" severity="error" message="Unable to get class information for ServletException." source="com.puppycrawl.tools.checkstyle.checks.coding.RedundantThrowsCheck"/>
-<error line="54" column="80" severity="error" message="Expected @throws tag for &apos;IOException&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<file name="C:\Users\White kandrat\git\Mind\Mind\src\org\main\Index.java">
+<error line="37" column="62" severity="error" message="Unable to get class information for ServletException." source="com.puppycrawl.tools.checkstyle.checks.coding.RedundantThrowsCheck"/>
+<error line="71" column="62" severity="error" message="Unable to get class information for ServletException." source="com.puppycrawl.tools.checkstyle.checks.coding.RedundantThrowsCheck"/>
 </file>
 </checkstyle>

@@ -1,12 +1,16 @@
 package org.BootStrapConnection;
 
+/**
+ * @author White kandrat.
+ */
 public final class JSinclude {
 	/**
 	 * insert script tag in html page.
+	 *
 	 */
-	/*Подключение js скриптов
-	 *->для подключения скрипта 
-	 *нужно добавить его в строку
+	/**
+	 * РџРѕРґРєР»СЋС‡РµРЅРёРµ js СЃРєСЂРёРїС‚РѕРІ->РґР»СЏ РїРѕРґРєР»СЋС‡РµРЅРёСЏ СЃРєСЂРёРїС‚Р° РЅСѓР¶РЅРѕ РґРѕР±Р°РІРёС‚СЊ РµРіРѕ РІ
+	 * СЃС‚СЂРѕРєСѓ.
 	 */
 	public static final String HTMLBOOTSTRAPSCRIPT = "<script src='bootstrap/js/bootstrap.js'></script>"
 			+ "<script src='bootstrap/js/jQuery.js'></script>"
